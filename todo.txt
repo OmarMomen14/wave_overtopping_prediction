@@ -1,0 +1,9 @@
+Sun 26.02
+- Did quick exploration.
+
+Future tasks:
+- Do normalization to all the input variables.
+- Do log tenth scale transformation to the target variable q
+- Do training-test split
+- Do training with xgboost
+
