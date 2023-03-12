@@ -1,9 +1,18 @@
 Sun 26.02
 - Did quick exploration.
 
-Future tasks:
+Sun 12.03
 - Do normalization to all the input variables.
 - Do log tenth scale transformation to the target variable q
+
+Future tasks:
 - Do training-test split
 - Do training with xgboost
+- Feature selection/enginerring
+- bootstrap resampling
+- prediction errors (look at paper of prediction)
 
+# Datasets:
+1. v01: raw data (no splits)
+2. v02: standard scaled input data (no splits)
+3. v03: standard scaled input data + log scaled q (no splits)
