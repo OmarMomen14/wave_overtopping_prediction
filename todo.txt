@@ -8,7 +8,9 @@ Sun 12.03
 Future tasks:
 - Do training-test split
 - Do training with xgboost
-- Feature selection/enginerring
+
+- grid search of hyperparams
+- Feature selection/enginerring (to reduce the used parameters, eliminate the weak predictors)
 - bootstrap resampling
 - prediction errors (look at paper of prediction)
 
