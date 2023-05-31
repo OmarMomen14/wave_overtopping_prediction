@@ -6,15 +6,15 @@ Sun 12.03
 - Do log tenth scale transformation to the target variable q
 
 Future tasks:
-- Do training-test split
-- Do training with xgboost
-
-- grid search of hyperparams
+- grid search of hyperparams --> Done
 - Feature selection/enginerring (to reduce the used parameters, eliminate the weak predictors)
-- bootstrap resampling
-- prediction errors (look at paper of prediction)
+- bootstrap resampling 
 
 # Datasets:
 1. v01: raw data (no splits)
 2. v02: standard scaled input data (no splits)
 3. v03: standard scaled input data + log scaled q (no splits)
+
+# Models
+- model_28_05_mape504 (trained on v03 dataset)
+- scaler_databasev_02.pkl (scale all the features)
