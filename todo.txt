@@ -5,6 +5,15 @@ Sun 12.03
 - Do normalization to all the input variables.
 - Do log tenth scale transformation to the target variable q
 
+
+Sun 04.06.2023
+- Plot graphs before scale and after scale to show scaling reduced outlliers and standrized the scale across the features
+- Plot graphs of q_pred vs q_actual
+- Plot a graph of (maybe box plot) to show range of q
+- Look at bootstrap resampling
+- Get RMSE of train_data
+
+
 Future tasks:
 - grid search of hyperparams --> Done
 - Feature selection/enginerring (to reduce the used parameters, eliminate the weak predictors)
