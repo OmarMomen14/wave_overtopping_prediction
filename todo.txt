@@ -8,10 +8,16 @@ Sun 12.03
 
 Sun 04.06.2023
 - Plot graphs before scale and after scale to show scaling reduced outlliers and standrized the scale across the features
-- Plot graphs of q_pred vs q_actual
+    -- turned out scaling don't remove outliers at all, it just rescale the feature values, which is useful for the model training
+    -- graphs show only the rescaling thing
 - Plot a graph of (maybe box plot) to show range of q
+- Graph for q before applying the log scale to show the skewed data distribution
+- Get RMSE of train_data DONE
+- Re-grid search with new lr values
+- Plot graphs of q_pred vs q_actual
+- Bias error and R_sq
+
 - Look at bootstrap resampling
-- Get RMSE of train_data
 
 
 Future tasks:
